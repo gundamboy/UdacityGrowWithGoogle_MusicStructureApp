@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nowplaying_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/base_padding"
+        android:paddingRight="@dimen/base_padding"
+        android:background="@color/colorTitleBar">
+
+        <include android:id="@+id/back_button"
+            layout="@layout/back_button"/>
+
+        <TextView
+            android:id="@+id/artists_header"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="@string/nowplaying_label" />
+
+        <include android:id="@+id/home_button"
+            layout="@layout/home_button"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/album_card"
+        android:layout_width="@dimen/album_large"
+        android:layout_height="@dimen/album_large"
+        android:layout_marginTop="@dimen/album_vertical_margin"
+        android:layout_marginBottom="@dimen/album_vertical_margin"
+        android:src="@drawable/deftones_adrenaline"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/song_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="Lifter" />
+
+    <TextView
+        android:id="@+id/artist_album"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorArtistAlbum"
+        android:text="Deftones | Adrenaline" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progressTint="@color/colorProgressBar"
+        android:progress="25"
+        android:max="100"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:orientation="horizontal"
+        android:background="@color/colorTitleBar">
+
+        <ToggleButton
+            android:id="@+id/btn_shuffle"
+            android:layout_width="@dimen/icon_controls_small"
+            android:layout_height="@dimen/icon_controls_small"
+            android:scaleType="fitCenter"
+            android:background="@drawable/button_shuffle"
+            android:textOn=""
+            android:textOff=""
+            style="@style/shuffle_toggle_style" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight = "1" />
+
+        <ImageButton
+            android:id="@+id/btn_previous"
+            android:layout_width="@dimen/icon_controls_big"
+            android:layout_height="@dimen/icon_controls_big"
+            android:scaleType="fitCenter"
+            android:background="@drawable/button_previous_song" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight = "1" />
+
+        <ToggleButton
+            android:id="@+id/btn_play_pause"
+            android:layout_width="@dimen/icon_controls_big"
+            android:layout_height="@dimen/icon_controls_big"
+            android:scaleType="fitCenter"
+            android:background="@drawable/button_play_pause"
+            android:textOn=""
+            android:textOff=""
+            style="@style/play_pause_button" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight = "1" />
+
+        <ImageButton
+            android:id="@+id/btn_next"
+            android:layout_width="@dimen/icon_controls_big"
+            android:layout_height="@dimen/icon_controls_big"
+            android:scaleType="fitCenter"
+            android:background="@drawable/button_next_song" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight = "1" />
+
+        <ToggleButton
+            android:id="@+id/btn_repeat"
+            android:layout_width="@dimen/icon_controls_small"
+            android:layout_height="@dimen/icon_controls_small"
+            android:scaleType="fitCenter"
+            android:background="@drawable/button_repeat"
+            android:textOn=""
+            android:textOff=""
+            style="@style/repeat_toggle_style" />
+
+    </LinearLayout>
+
+</LinearLayout>

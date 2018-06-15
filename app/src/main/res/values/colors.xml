@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#23252a</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorMainBackground">#3d414d</color>
+    <color name="colorTitleBar">#30333c</color>
+    <color name="colorFooterBar">#30333c</color>
+    <color name="colorProgressBar">#3493af</color>
+    <color name="colorHighlights">#3493af</color>
+    <color name="colorBorders">#625e5f</color>
+    <color name="colorArtistAlbum">#b6b6b6</color>
+    <color name="colorListViewDivider">#30333c</color>
+    <color name="artistCardTitleBackground">#CC000000</color>
+</resources>

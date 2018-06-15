@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorMainBackground</item>
+    </style>
+
+    <style name="play_pause_toggle_style" parent="android:Widget">
+        <item name="android:background">@drawable/button_play_pause_bg</item>
+        <item name="android:disabledAlpha">?android:attr/disabledAlpha</item>
+    </style>
+
+    <style name="play_pause_button"  parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:buttonStyleToggle">@style/play_pause_toggle_style</item>
+        <item name="android:textOn"></item>
+        <item name="android:textOff"></item>
+    </style>
+
+    <style name="shuffle_toggle_style" parent="android:Widget">
+        <item name="android:background">@drawable/button_shuffle_bg</item>
+        <item name="android:disabledAlpha">?android:attr/disabledAlpha</item>
+    </style>
+
+    <style name="shuffle_button"  parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:buttonStyleToggle">@style/shuffle_toggle_style</item>
+        <item name="android:textOn"></item>
+        <item name="android:textOff"></item>
+    </style>
+
+    <style name="repeat_toggle_style" parent="android:Widget">
+        <item name="android:background">@drawable/button_repeat</item>
+        <item name="android:disabledAlpha">?android:attr/disabledAlpha</item>
+    </style>
+
+    <style name="repeat_button"  parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:buttonStyleToggle">@style/repeat_toggle_style</item>
+        <item name="android:textOn"></item>
+        <item name="android:textOff"></item>
+    </style>
+
+</resources>

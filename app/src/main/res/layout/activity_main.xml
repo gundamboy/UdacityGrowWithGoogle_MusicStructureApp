@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/artists_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/base_padding"
+        android:paddingRight="@dimen/base_padding"
+        android:background="@color/colorTitleBar"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:id="@+id/artists_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:text="@string/artist_label" />
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="@dimen/artist_grid_columnWidth"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="@dimen/artist_grid_verticalSpacing"
+        android:horizontalSpacing="@dimen/artist_grid_horizontalSpacing"
+        android:stretchMode="columnWidth"
+        android:paddingLeft="@dimen/base_padding"
+        android:paddingRight="@dimen/base_padding"
+        android:gravity="center"
+        />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <dimen name="artist_grid_columnWidth">150dp</dimen>
+    <dimen name="artist_grid_verticalSpacing">10dp</dimen>
+    <dimen name="artist_grid_horizontalSpacing">10dp</dimen>
+    <dimen name="list_item_height">65dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="base_padding">16dp</dimen>
+    <dimen name="album_vertical_margin">16dp</dimen>
+    <dimen name="list_item_margin">16dp</dimen>
+    <dimen name="artist_card_size">150dp</dimen>
+    <dimen name="artist_name_block">44dp</dimen>
+    <dimen name="artist_thumb_size">100dp</dimen>
+    <dimen name="album_thumb_size">46dp</dimen>
+    <dimen name="album_large">250dp</dimen>
+    <dimen name="header_height">44dp</dimen>
+    <dimen name="header_button">28dp</dimen>
+    <dimen name="icon_controls_small">24dp</dimen>
+    <dimen name="icon_controls_big">48dp</dimen>
+    <dimen name="listview_divider_height">1dp</dimen>
+</resources>

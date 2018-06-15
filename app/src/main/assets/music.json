@@ -1,0 +1,210 @@
+{
+    "bands": [
+    {
+        "id": 1,
+        "artist": "Deftones",
+        "album": "Adrenaline",
+        "artist_image": "deftones_band",
+        "album_image": "deftones_adrenaline",
+        "tracks": [
+            {"title": "Bored"},
+            {"title": "Minus Blindfold"},
+            {"title": "One Weak"},
+            {"title": "Nosebleed"},
+            {"title": "Lifter"},
+            {"title": "Root"},
+            {"title": "7 Words"},
+            {"title": "Birthmark"},
+            {"title": "Engine No. 9"},
+            {"title": "Fireal"},
+            {"title":  "Fist"}
+            ]
+    },
+    {
+        "id": 2,
+        "artist": "Dream Theater",
+        "album": "Octavarium",
+        "artist_image": "dreamtheater_band",
+        "album_image": "dreamtheater_octavarium",
+        "tracks": [
+            {"title": "The Root of All Evil"},
+            {"title": "The Answer Lies Within"},
+            {"title": "These Walls"},
+            {"title": "I Walk Beside You"},
+            {"title": "Panic Attack"},
+            {"title": "Never Enough"},
+            {"title": "Sacrificed Sons"},
+            {"title": "Octavarium"}
+        ]
+    },
+    {
+        "id": 3,
+        "artist": "In Flames",
+        "album": "Reroute to Remain",
+        "artist_image": "inflames_band",
+        "album_image": "inflames_reroute_to_remain",
+        "tracks": [
+            {"title": "Reroute To Remain"},
+            {"title": "System"},
+            {"title": "Drifter"},
+            {"title": "Trigger"},
+            {"title": "Cloud Connected"},
+            {"title": "Transparent"},
+            {"title": "Dawn Of A New Day"},
+            {"title": "Egonomic"},
+            {"title": "Minus"},
+            {"title": "Dismiss The Cynics"},
+            {"title": "Free Fall"},
+            {"title": "Dark Signs"},
+            {"title": "Metaphor"},
+            {"title": "Black & White"}
+        ]
+    },
+    {
+        "id": 4,
+        "artist": "Machine Head",
+        "album": "Through the Ashes of Empires",
+        "artist_image": "machinehead_band",
+        "album_image": "machinehead_through_the_ashes_of_empires",
+        "tracks": [
+            {"title": "Imperium"},
+            {"title": "Bite The Bullet"},
+            {"title": "Left Unfinished"},
+            {"title": "Elegy"},
+            {"title": "In The Presence Of My Enemies"},
+            {"title": "Days Turn Blue To Gray"},
+            {"title": "Vim"},
+            {"title": "Seasons Wither"},
+            {"title": "All Falls Down"},
+            {"title": "Wipe The Tears"},
+            {"title": "Descend The Shades Of Night"}
+        ]
+    },
+    {
+        "id": 5,
+        "artist": "Mastodon",
+        "album": "Leviathan",
+        "artist_image": "mastodon_band",
+        "album_image": "mastodon_leviathan",
+        "tracks": [
+            {"title": "Blood and Thunder (featuring Neil Fallon)"},
+            {"title": "I Am Ahab"},
+            {"title": "Seabeast"},
+            {"title": "Island"},
+            {"title": "Iron Tusk"},
+            {"title": "Megalodon"},
+            {"title": "Naked Burn"},
+            {"title": "Aqua Dementia (featuring Scott Kelly)"},
+            {"title": "Hearts Alive"},
+            {"title": "Joseph Merrick (instrumental)"}
+        ]
+    },
+    {
+        "id": 6,
+        "artist": "Of Mice and Men",
+        "album": "Defy",
+        "artist_image": "ofmiceandmen_band",
+        "album_image": "ofmiceandmen_defy",
+        "tracks": [
+            {"title": "Defy"},
+            {"title": "Instincts"},
+            {"title": "Back to Me"},
+            {"title": "Sunflower"},
+            {"title": "Unbreakable"},
+            {"title": "Vertigo"},
+            {"title": "Money (Pink Floyd cover)"},
+            {"title": "How Will You Live"},
+            {"title": "On the Inside"},
+            {"title": "Warzone"},
+            {"title": "Forever YDG'N"},
+            {"title": "If We Were Ghosts"}
+        ]
+    },
+    {
+        "id": 7,
+        "artist": "Pantera",
+        "album": "Far Beyond Driven",
+        "artist_image": "pantera_band",
+        "album_image": "pantera_farbeyonddriven",
+        "tracks": [
+            {"title": "Strength Beyond Strength"},
+            {"title": "Becoming"},
+            {"title": "5 Minutes Alone"},
+            {"title": "I'm Broken"},
+            {"title": "Good Friends and a Bottle of Pills"},
+            {"title": "Hard Lines, Sunken Cheeks"},
+            {"title": "Slaughtered"},
+            {"title": "25 Years"},
+            {"title": "Shedding Skin"},
+            {"title": "Use My Third Arm"},
+            {"title": "Throes of Rejection"},
+            {"title": "Planet Caravan"}
+        ]
+    },
+    {
+        "id": 8,
+        "artist": "The Haunted",
+        "album": "The Dead Eye",
+        "artist_image": "thehaunted_band",
+        "album_image": "thehaunted_thedeadeye",
+        "tracks": [
+            {"title": "The Premonition"},
+            {"title": "The Flood"},
+            {"title": "The Medication"},
+            {"title": "The Drowning"},
+            {"title": "The Reflection"},
+            {"title": "The Prosecution"},
+            {"title": "The Fallout"},
+            {"title": "The Medusa"},
+            {"title": "The Shifter"},
+            {"title": "The Cynic"},
+            {"title": "The Failure"},
+            {"title": "The Stain"},
+            {"title": "The Guilt Trip"}
+        ]
+    },
+    {
+        "id": 9,
+        "artist": "Tool",
+        "album": "Ænima",
+        "artist_image": "tool_band",
+        "album_image": "tool_aenima",
+        "tracks": [
+            {"title": "Stinkfist"},
+            {"title": "Eulogy"},
+            {"title": "H."},
+            {"title": "Useful Idiot"},
+            {"title": "Forty Six & 2"},
+            {"title": "Message to Harry Manback"},
+            {"title": "Hooker with a Penis"},
+            {"title": "Intermission"},
+            {"title": "jimmy"},
+            {"title": "Die Eier von Satan"},
+            {"title": "Pushit"},
+            {"title": "Cesaro Summability"},
+            {"title": "Ænema"},
+            {"title": "(-) Ions"},
+            {"title": "Third Eye"}
+        ]
+    },
+    {
+        "id": 10,
+        "artist": "Trivium",
+        "album": "The Sin and the Sentence",
+        "artist_image": "trivium_band",
+        "album_image": "trivium_thesinandthesentence",
+        "tracks": [
+            {"title": "The Sin and the Sentence"},
+            {"title": "Beyond Oblivion"},
+            {"title": "Other Worlds"},
+            {"title": "The Heart from Your Hate"},
+            {"title": "Betrayer"},
+            {"title": "The Wretchedness Inside"},
+            {"title": "Endless Night"},
+            {"title": "Sever the Hand"},
+            {"title": "Beauty in the Sorrow"},
+            {"title": "The Revanchist"},
+            {"title": "Thrown into the Fire"}
+        ]
+    }
+]}

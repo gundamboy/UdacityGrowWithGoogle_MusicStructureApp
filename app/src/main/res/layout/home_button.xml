@@ -1,0 +1,9 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton
+        android:id="@+id/btn_home"
+        android:layout_width="@dimen/header_button"
+        android:layout_height="@dimen/header_button"
+        android:scaleType="fitCenter"
+        android:background="@drawable/button_home"
+        android:gravity="center" />
+</merge>
